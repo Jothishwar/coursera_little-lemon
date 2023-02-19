@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./home/Home";
 import About from "./about/About";
-import Booking from "../booking/Booking";
+import Booking from "./booking/Booking";
 import OrderOnline from "./order/OrderOnline";
 import TodayMenu from "./menu/TodayMenu";
 import Login from "./login/Login";
-import ConfirmedBooking from "../booking/ConfirmedBooking";
+import ConfirmedBooking from "./booking/ConfirmedBooking";
 
 const Main = () => {
   return (

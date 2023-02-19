@@ -4,22 +4,22 @@ const Menu = () => {
   return (
     <ul className="menu">
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/" />
       </li>
       <li>
-        <a href="#about">About</a>
+        <Link to="/about" />
       </li>
       <li>
-        <Link to="#">Menu</Link>
+        <Link to="/menu" />
       </li>
       <li>
-        <Link to="/booking">Reservation</Link>
+        <Link to="/booking" />
       </li>
       <li>
-        <Link to="#">Order Online</Link>
+        <Link to="/order" />
       </li>
       <li>
-        <Link to="#">Login</Link>
+        <Link to="/login" />
       </li>
     </ul>
   );

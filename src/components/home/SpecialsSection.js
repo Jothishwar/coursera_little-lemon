@@ -1,14 +1,20 @@
 import Button from "../Button";
 import Special from "./Special";
+import {useNavigate} from 'react-router-dom';
 
 const SpecialsSection = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="specials-section">
       <div className="specials-section-title">
         <h1>Specials</h1>
       </div>
       <div className="specials-section-button">
-        <Button className="specials-section-button-text">Online menu</Button>
+        <Button 
+          className="specials-section-button-text"
+          onClick={()=>navigate('/menu')}
+          >Online menu</Button>
       </div>
       <div className="specials-section-cards">
         <Special

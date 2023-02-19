@@ -1,6 +1,8 @@
 import Button from "./Button";
+import {useNavigate} from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <header>
       <article>
@@ -10,7 +12,11 @@ const Header = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <Button background="#F4CE14" color="black">
+        <Button 
+          background="#F4CE14" 
+          color="black"
+          onClick={()=>navigate('/booking')}
+          >    
           Reserve a Table
         </Button>
       </article>

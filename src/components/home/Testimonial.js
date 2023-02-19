@@ -1,4 +1,4 @@
-import Rating from "../common/Rating";
+import Rating from "../Rating";
 
 const Testimonial = ({ image, name, riview, rating }) => {
   return (

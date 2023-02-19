@@ -1,4 +1,4 @@
-import Header from "../common/Header";
+import Header from "./Header";
 import LittleLemonSection from "./LittleLemonSection";
 import SpecialsSection from "./SpecialsSection";
 import TestimonialsSection from "./TestimonialsSection";
